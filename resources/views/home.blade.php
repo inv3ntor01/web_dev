@@ -1,51 +1,124 @@
-<div class="container mx-auto px-4 py-12">
-    <!-- Header -->
-    <header class="mb-16 text-center">
-        <h1 class="text-5xl font-bold mb-4">Security Researcher</h1>
-        <p class="text-xl text-gray-600 mb-6">Ethical Hacker | Penetration Tester | Vulnerability Analyst</p>
-        <a href="contact" class="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700">Get in Touch</a>
-    </header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Security Researcher Portfolio</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      margin: 0;
+      background-color: #f9f9fb;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #0d0d0d;
+      color: #fff;
+      padding: 30px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      margin: 10px 0 0;
+      font-style: italic;
+      font-size: 1.2em;
+    }
+    nav {
+      background: #222;
+      padding: 12px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #00bcd4;
+    }
+    section {
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      border-bottom: 2px solid #00bcd4;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+    }
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+    footer {
+      background: #0d0d0d;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
 
-    <!-- About -->
-    <section class="mb-16 max-w-3xl mx-auto">
-        <a href='about'>About Page</a>
-        <h2 class="text-3xl font-bold mb-4">About Me</h2>
-        <p class="text-gray-700 leading-relaxed">
-            Certified security professional specializing in vulnerability assessment and penetration testing. 
-            Dedicated to helping organizations identify and remediate security risks.
-        </p>
-    </section>
+  <header>
+    <h1>Security Researcher</h1>
+    <p>Web Vulnerability Specialist | Bug Bounty Hunter | Ethical Hacker</p>
+  </header>
 
-    <!-- Skills -->
-    <section class="mb-16">
-        <h2 class="text-3xl font-bold mb-8">Skills</h2>
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <div class="bg-gray-100 p-4 rounded">Penetration Testing</div>
-            <div class="bg-gray-100 p-4 rounded">Web Security</div>
-            <div class="bg-gray-100 p-4 rounded">Network Analysis</div>
-            <div class="bg-gray-100 p-4 rounded">OWASP Top 10</div>
-        </div>
-    </section>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="writeups.html">Writeups</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-    <!-- Contact -->
-    <section id="contact" class="text-center">
-        <h2 class="text-3xl font-bold mb-6">Contact</h2>
-        <p class="text-gray-600">Email: contact@example.com</p>
-    </section>
-</div>
-    <!-- Portfolio Projects -->
-    <section class="mb-16 max-w-4xl mx-auto">
-        <h2 class="text-3xl font-bold mb-8">Portfolio</h2>
-        <div class="grid md:grid-cols-2 gap-6">
-            <div class="border border-gray-300 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 class="text-xl font-bold mb-2">Web Application Security Audit</h3>
-                <p class="text-gray-600 mb-4">Identified and documented 15+ vulnerabilities in e-commerce platform</p>
-                <span class="text-sm bg-blue-100 text-blue-800 px-3 py-1 rounded">OWASP</span>
-            </div>
-            <div class="border border-gray-300 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 class="text-xl font-bold mb-2">Network Penetration Test</h3>
-                <p class="text-gray-600 mb-4">Conducted full network assessment and delivered remediation roadmap</p>
-                <span class="text-sm bg-green-100 text-green-800 px-3 py-1 rounded">Networking</span>
-            </div>
-        </div>
-    </section>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a certified security professional dedicated to <strong>web vulnerability assessment</strong> and <strong>bug bounty hunting</strong> on platforms such as <em>Bugcrowd</em> and <em>HackerOne</em>. 
+       My focus is on identifying, documenting, and helping organizations remediate critical security flaws. 
+       I continuously sharpen my skills through <em>TryHackMe labs</em>, mastering the <em>OWASP Top 10</em>, and leveraging <em>PortSwigger tools</em> to stay ahead in the evolving cybersecurity landscape.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Web Vulnerability Assessment</li>
+      <li>Bug Bounty Hunting (Bugcrowd & HackerOne)</li>
+      <li>Penetration Testing</li>
+      <li>OWASP Top 10 Mastery</li>
+      <li>PortSwigger Suite (Burp Suite)</li>
+      <li>TryHackMe Labs & Challenges</li>
+      <li>Network Analysis & Exploitation</li>
+    </ul>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <h3>Web Application Security Audit</h3>
+    <p>Identified and documented 15+ vulnerabilities in an e-commerce platform, including SQLi and XSS vectors.</p>
+
+    <h3>Bug Bounty Engagements</h3>
+    <p>Reported validated vulnerabilities on Bugcrowd and HackerOne, contributing to improved security posture for multiple organizations.</p>
+
+    <h3>Network Penetration Test</h3>
+    <p>Conducted full network assessment and delivered a remediation roadmap to mitigate risks.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:contact@example.com">contact@example.com</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Security Researcher Portfolio</p>
+  </footer>
+
+</body>
+</html>
