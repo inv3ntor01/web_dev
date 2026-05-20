@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "91e8e1dfc8379caaf1c302443d694dfa",
+    "content-hash": "2124b4650216ce127b212926e9b7100d",
     "packages": [
         {
             "name": "brick/math",
@@ -8873,6 +8873,51 @@
             "time": "2025-02-07T05:00:38+00:00"
         },
         {
+            "name": "serversideup/spin",
+            "version": "v3.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/serversideup/spin.git",
+                "reference": "5da5b5485b03e4f75d501b93b8a7e8ab973157cd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/serversideup/spin/zipball/5da5b5485b03e4f75d501b93b8a7e8ab973157cd",
+                "reference": "5da5b5485b03e4f75d501b93b8a7e8ab973157cd",
+                "shasum": ""
+            },
+            "bin": [
+                "bin/spin"
+            ],
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Dan Pastori",
+                    "homepage": "https://twitter.com/danpastori"
+                },
+                {
+                    "name": "Jay Rogers",
+                    "homepage": "https://twitter.com/jaydrogers"
+                }
+            ],
+            "description": "Replicate your production environment locally using Docker. Just run \"spin up\". It's really that easy.",
+            "support": {
+                "issues": "https://github.com/serversideup/spin/issues",
+                "source": "https://github.com/serversideup/spin/tree/v3.1.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/serversideup",
+                    "type": "github"
+                }
+            ],
+            "time": "2025-11-06T19:13:57+00:00"
+        },
+        {
             "name": "staabm/side-effects-detector",
             "version": "1.0.5",
             "source": {
@@ -9105,5 +9150,5 @@
         "php": "^8.3"
     },
     "platform-dev": {},
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.9.0"
 }
